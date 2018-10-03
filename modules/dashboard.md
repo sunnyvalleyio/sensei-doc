@@ -1,9 +1,9 @@
 # Dashboard
 
-The dashboard gives you a quick glipmse of all modules. Most critical informations gathered from Sensei displayed here.
+Sensei Dashboard gives you a quick glimpse of all modules. Most critical information gathered by Sensei is displayed here.
 
 {% hint style="info" %}
-During Sensei's development, we did our best to use everyday plain English and clear texts on the UI. If you're familiar with basic Wi-Fi user interface, you may feel home :\)
+During Sensei's development, we did our best to use everyday plain English and clear texts on the UI. If you're familiar with a basic Wi-Fi user interface, you may feel home :\)
 {% endhint %}
 
 ![Sensei&apos;s Dashboard](../.gitbook/assets/sensei-m1-dashboard.png)
