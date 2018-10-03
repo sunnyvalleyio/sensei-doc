@@ -14,8 +14,8 @@
 * [Dashboard](modules/dashboard.md)
 * [Status](modules/status.md)
 * [Reports](modules/reports.md)
-* [Application Control](modules/application-control.md)
 * [Security](modules/security.md)
+* [Application Control](modules/application-control.md)
 * [Web Control](modules/web-control.md)
 
 ## Support
