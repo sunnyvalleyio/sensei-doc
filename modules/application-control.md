@@ -22,13 +22,13 @@ You can use dynamic search on top of the category list to filter out the items. 
 
 ### Blocking an application 
 
-Sensei allows you to block individual applications by clicking on the green check items on the left side of each application.
+Sensei allows you to block individual applications by clicking on the green check icons located on the left side of each application.
 
 ![Blocking Facebook and a couple other social networks](../.gitbook/assets/sensei-m5-app-controls-2.png)
 
 ### Blockin an entire category
 
-You can also block entire category by clicking the green check icon on the left side of the category name.
+You can also block entire category by clicking the green check icon located on the left side of the category name.
 
 ![](../.gitbook/assets/sensei-m5-app-controls-3.png)
 
