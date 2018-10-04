@@ -32,7 +32,7 @@ This link checks the latest stable minor version from Sensei update server and d
 
 ## Cloud Node Status
 
-Web Categorisation and Cloud Threat Intelligence data is queried real time whenanyone make a connection through your network. This enables us to respond malware and wireless outbreaks in real time and very fast. 
+Web Categorisation and The Cloud Threat Intelligence data is queried real time when anyone makes a connection through your network. This enables us to respond to malware and wireless outbreaks in real time and very fast.
 
 You can see SVN network's response time and uptime on this table.
 
