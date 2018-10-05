@@ -17,6 +17,8 @@
 * [Security](modules/security.md)
 * [Application Control](modules/application-control.md)
 * [Web Control](modules/web-control.md)
+* [Configuration](modules/configuration.md)
+* [Untitled](modules/untitled.md)
 
 ## Support
 
