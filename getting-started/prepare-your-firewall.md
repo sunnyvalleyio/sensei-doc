@@ -10,5 +10,7 @@ Sensei is created to run on open source firewalls like pfSense, OPNsense, etc. T
 2. Head to the System &gt; Settings &gt; Administrations menu
 3. Enable all three checkboxes 
 
-![Enabling SSH access on OPNsense](../.gitbook/assets/setup_1_opnsense_enable_ssh.png)
+![](../.gitbook/assets/opnsense-admin-secure-shell-settings.png)
+
+
 
