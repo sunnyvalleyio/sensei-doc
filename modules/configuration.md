@@ -35,7 +35,7 @@ Cloud Threat Intel settings lets you;
 
 ## Updates & Support
 
-* **Self Healt Check:** If enabled "Self Health Check" monitors the system's memory, cpu, disk usage and core services if they're working properly, and raises alerts \(still in development\) if anything goes wrong. The Check also stops the relavant services if they're consuming excessive system resources.
+* **Self Health Check:** If enabled "Self Health Check" monitors the system's memory, cpu, disk usage and core services if they're working properly, and raises alerts \(still in development\) if anything goes wrong. The Check also stops the relavant services if they're consuming excessive system resources.
 * **Check for Updates Automatically:** Checks automattically for the updates and updates silently.
 * **Update Databases and Threat Intelligence Data Automatically:** Checks automattically for the updates and updates silently.
 * **Enable Generation of Suppport Data:** Sensei collects supporting data during unusual events and crashes locally if enabled. You can share this data when opening a ticket with us. 

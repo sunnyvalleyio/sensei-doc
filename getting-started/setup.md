@@ -85,11 +85,34 @@ Cloud Threat Intel settings lets you;
 
 ![](../.gitbook/assets/sensei-0-wizard-tab4-sensei-cli.png)
 
-### 4- Updates & Health Check
+### 5- Updates & Health Check
 
-* Sensei uses OPNsense package system to deliver its updates. Configure the way you receive your Sensei updates as you feel convenient.
+{% hint style="info" %}
+Sensei uses OPNsense package system to deliver its updates. Configure the way you receive your Sensei updates as you feel convenient.
+{% endhint %}
 
+* **Self Health Check:** If enabled "Self Health Check" monitors the system's memory, cpu, disk usage and core services if they're working properly, and raises alerts \(still in development\) if anything goes wrong. The Check also stops the relavant services if they're consuming excessive system resources.
+* **Check for Updates Automatically:** Checks automattically for the updates and updates silently.
+* **Update Databases and Threat Intelligence Data Automatically:** Checks automattically for the updates and updates silently.
+* **Enable Generation of Suppport Data:** Sensei collects supporting data during unusual events and crashes locally if enabled. You can share this data when opening a ticket with us. 
 
+![](../.gitbook/assets/sensei-0-wizard-tab5-updates-health-check.png)
+
+### 6- Deployment Size
+
+Sensei supports upto 1000 concurrent users on a everyday PC. You can set your Sensei installation's capacity here.
+
+{% hint style="info" %}
+You can get detailed info about suggested hardware on [Getting Started &gt; Hardware Requirements​](getting-ready.md)
+{% endhint %}
+
+![](../.gitbook/assets/sensei-0-wizard-tab6-deployment-size-1.png)
+
+### 7- Finish
+
+Click Finish button to save your initial configuration data and start using Sensei.
+
+![](../.gitbook/assets/sensei-0-wizard-tab7-finish-1.png)
 
 {% hint style="info" %}
 Hands-on video: [https://www.youtube.com/watch?time\_continue=7&v=y6OE2FuzkF0](https://www.youtube.com/watch?time_continue=7&v=y6OE2FuzkF0)
