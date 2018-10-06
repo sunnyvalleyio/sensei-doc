@@ -4,7 +4,7 @@ description: >-
   documentation in these pages.
 ---
 
-# Welcome
+# Welcome - About Sensei
 
 ### About Sensei
 
