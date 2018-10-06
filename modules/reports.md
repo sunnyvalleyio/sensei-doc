@@ -6,9 +6,11 @@ Reports module is the place where you see what is happening on your network, whi
 All reports have their charts set up. You'll be provided with the charts relevant to the report you're on.
 {% endhint %}
 
-## How to Use Drill Down Filter
+## How to Use Drill-Down Filter
 
-You can drill-down to the data you see on the page by right clicking on any of the charts displayed, and filter out the data. It will be automatically applied to all the charts as is.
+You can drill-down to the data you see on the page by clicking on any of the charts displayed, and filter out the data. It will be automatically applied to all the charts as is.
+
+![](../.gitbook/assets/sensei-m3-reports-charts-drill-down.png)
 
 ## How to Use Generic Filter
 
