@@ -29,5 +29,7 @@ Sensei empowers your firewall with the following next generation features
 Sensei is currently under Beta development. With 0.6 release, we started accepting BETA users for [Sensei Early Access Program](https://www.sunnyvalley.io/sensei).
 {% endhint %}
 
-
+{% hint style="info" %}
+Sensei is currently available for [OPNsense firewall](https://www.opnsense.org). 
+{% endhint %}
 
