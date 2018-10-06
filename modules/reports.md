@@ -1,12 +1,16 @@
 # Reports
 
-Reports module is the place where you see what is happening on your network, which rules are hitting and more in realtime.
+Reports module is the place where you see what is happening on your network, which rules are hitting and more in real-time.
 
 {% hint style="info" %}
-All reports  have their charts set up. You'll be provided with the charts relevant to report you're on.
+All reports have their charts set up. You'll be provided with the charts relevant to the report you're on.
 {% endhint %}
 
-## How to Use Filter
+## How to Use Drill Down Filter
+
+You can drill-down to the data you see on the page by right clicking on any of the charts displayed, and filter out the data. It will be automatically applied to all the charts as is.
+
+## How to Use Generic Filter
 
 You can filter out the reports by clicking "+ Add Filter" button on top of each report page.
 
@@ -16,43 +20,43 @@ You can filter out the reports by clicking "+ Add Filter" button on top of each 
 
 ![Filter types](../.gitbook/assets/sensei-m3-reports-filter-2.png)
 
-* Enter the filter
+* Enter the keyword
 
 ![If you&apos;re on Connections tab, you can try Application Category](../.gitbook/assets/sensei-m3-reports-filter-3.png)
 
-* Click Add to apply to current report page
+* Click Add to apply your filter to the current report page.
 
 ![Connections filtered out for Application Category = Streaming](../.gitbook/assets/sensei-m3-reports-filter-4.png)
 
 ## The Explorer and How to Use It
 
-Sensei's "Explorer" module displays and lets you browse the relevant data about the report you're on. All reports has slightly different versions of the explorer. You'll notice how the explorer incorporates the grid and functionality based on the report you're exploring.
+Sensei's "Explorer" module displays and lets you browse the relevant data about the report you're on. All reports have slightly different versions of the explorer. You'll notice how the explorer consolidates the data and changes functionality based on the report you're exploring.
 
 {% hint style="info" %}
 To open up "The Explorer", click on the button upper right corner of the page. 
 {% endhint %}
 
-Each report page has an explorer screen that renders related connection logs with a searchable, sortable fashion.
+Each report page has an explorer screen that renders detailed connection logs with a searchable, sortable fashion.
 
 ### Dynamic Search
 
-We put a filter and a dynamic text search area at upper right corner of each explorer screen. This enables tou to filter all the data in the grid as you type.
+There is a dynamic text search area at the upper right corner of every explorer screen. It helps you to filter all the data in the grid as you type.
 
 ![Blocked sessions filtered out by Block Message = url](../.gitbook/assets/sensei-m3-reports-tab2-security-3-explorer-detail-5-search.png)
 
 ### How to Take Actions
 
-You'll find 3 buttons for each log item.
+You'll find three buttons for each log item.
 
-* Info icon: Provides connection details.
+* **Info icon:** Provides connection details.
 
 ![](../.gitbook/assets/sensei-m3-reports-tab1-connections-7-explorer-detail-1.png)
 
-* Action icon:  Helps you to block or allow that particular connection
+* **Action icon:**  Helps you to block or allow that particular connection.
 
 ![](../.gitbook/assets/sensei-m3-reports-tab1-connections-7-explorer-detail-2-block.png)
 
-* Query icon: Renders a form to query whois data for that connection
+* **Query icon:** Renders a form to query whois data for that connection.
 
 ![](../.gitbook/assets/sensei-m3-reports-tab1-connections-7-explorer-detail-3-query.png)
 
@@ -60,7 +64,11 @@ You'll find 3 buttons for each log item.
 
 ## Report Charts
 
-Due to nature of the job, Sensei creates vast amount of data and creates meaningful graphics based on them. Each Sub-Module has its own chart setup. 
+Due to the nature of the job, Sensei creates a vast amount of data and creates meaningful graphics based on them. Each Sub-Module has its own chart setup.
+
+{% hint style="info" %}
+Use drill-down filter by right clicking on any of the charts displayed to filter out the data. It will be automatically applied to all the charts as is.
+{% endhint %}
 
 ### Connection Report Charts
 

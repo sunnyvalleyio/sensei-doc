@@ -7,7 +7,6 @@
 * [Hardware Requirements](getting-started/getting-ready.md)
 * [Prepare Your Firewall](getting-started/prepare-your-firewall.md)
 * [Installing Sensei](getting-started/setup.md)
-* [Advanced Configuration](getting-started/advanced-configuration.md)
 
 ## Modules
 
@@ -23,7 +22,6 @@
 
 * [FAQ](support/faq.md)
 * [Getting support](support/getting-support.md)
-* [Becoming a Premium user](support/becoming-a-premium-user.md)
 * [How to articles](support/how-to-articles.md)
 * [Changelog](support/changelog.md)
 * [Roadmap](support/roadmap.md)

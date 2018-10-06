@@ -2,13 +2,13 @@
 
 ## Which open source firewalls are supported?
 
-OPNsense versions 18.1.x and 18.7.x, and we're also working to bring Sensei on other open source platforms as well.
+​Sensei is created to run on open source firewalls like OPNsense. This documentation based on OPNsense 18.1.x/18.7.x branches.
 
 ## Can I run Sensei on a virtualized environment like Proxmox, VirtualBox, KVM?
 
-Yes! However, be sure to avoid using VirtIO Ethernet. We recommend using Intel E1000 or Realtek as the network adapter type.
+Yes! However, be sure to avoid using `VirtIO Ethernet`. We recommend using `Intel E1000` or `Realtek` as the network adapter type.
 
-The reason is, netmap \(the packet interface at FreeBSD\) adds 12-byte headers for guest to host connections, and our application does not currently handle that. It is on our roadmap to address this.
+The reason is, `netmap` \(the packet interface at FreeBSD\) adds 12-byte headers for guest to host connections, and our application does not currently handle that. It is on our roadmap to address this.
 
 ## Are there any compatibility issues with OPNsense?
 
@@ -62,7 +62,7 @@ Please refer to [Getting support section here](getting-support.md#community-edut
 
 ## How much does Sensei cost?
 
-Community Edition is forever free for OPNsense.
+Community Edition is forever free for OPNsense users.
 
 There will be an upcoming Enterprise edition with much more advanced features, which will be more suitable for more advanced use cases.
 

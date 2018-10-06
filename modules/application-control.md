@@ -8,7 +8,7 @@ Sensei's Application Control engine works seamlessly behind the scenes when a us
 
 ## Categorization
 
-Applications are categorized by their type, and listed in a click-to-open treeview for a convenient access. 
+Applications are categorized by their type and listed in a click-to-open tree-view for convenient access.
 
 ![App Control settings](../.gitbook/assets/sensei-m5-app-controls-1.png)
 
@@ -28,7 +28,7 @@ Sensei allows you to block individual applications by clicking on the green chec
 
 ### Blockin an entire category
 
-You can also block entire category by clicking the green check icon located on the left side of the category name.
+You can also block the entire category by clicking the green check icon located on the left side of the category name.
 
 ![](../.gitbook/assets/sensei-m5-app-controls-3.png)
 
@@ -40,7 +40,7 @@ When you're ok with the changes you made, click on the button lower right corner
 
 ### Testing the results
 
-The rules goes in the action immediately after you hit the save button. The request silently blackholed on the user's end.
+The rules go in the action immediately after you hit the save button. The request silently blackholed on the user's end.
 
 ![The user&apos;s browser screen when a site is blocked.](../.gitbook/assets/sensei-m5-app-controls-5-facebook.png)
 

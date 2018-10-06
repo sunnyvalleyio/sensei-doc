@@ -80,5 +80,5 @@ If you're running a 100 Mbps link \(about 100 users\) which is quite active duri
 42 x 4 weeks a month = 164 GB per month.
 ```
 
-As of 0.7.0 \([_changelog_](https://www.sunnyvalley.io/blog/what-s-cooking-for-0-7)\), Sensei has a Data Retiring feature. After a configured timespan, existing reports data automatically purges to save space for fresh data.
+As of 0.7.0 \([_changelog_](https://www.sunnyvalley.io/blog/what-s-cooking-for-0-7)\), Sensei retires reports data to open up space for the new ones. After a configured timespan, existing reports data automatically purges to save space for fresh data.
 

@@ -32,15 +32,15 @@ This link checks the latest stable minor version from Sensei update server and d
 
 ## Cloud Node Status
 
-Web Categorisation and The Cloud Threat Intelligence data is queried real time when anyone makes a connection through your network. This enables us to respond to malware and wireless outbreaks in real time and very fast.
+Web Categorization and The Cloud Threat Intelligence data is queried real time when anyone makes a connection through your network. It allows us to respond to malware and wireless outbreaks in real time and very fast.
 
-You can see SVN network's response time and uptime on this table.
+You can see the SVN Cloud's response time and uptime on this table.
 
 ## Network Interfaces
 
 This section displays all assigned interfaces set in during Initial Configuration Wizard or Configuration &gt; Interfaces section.
 
-Overall network status, packets, through put in & out can be seen here.
+Overall network status, packets, throughput in & out can be seen here.
 
 ## Services
 
@@ -52,7 +52,9 @@ This section shows Sensei Packet Engine status and provides Start/Restart button
 
 Sensei uses Elastic Search as its database. This section shows the space used by Elastic Engine, Engine status and provides Start/Restart buttons for the engine as well as "Start on Boot" control to set the daemon status on a system restart.
 
-{% hint style="info" %}
-It is suggested to keep Elastic Search running all the time as it is the primary database for Sensei.
+{% hint style="warning" %}
+We highly recommend keeping Elastic Search running all the time as it is the primary database for Sensei.
 {% endhint %}
+
+
 
