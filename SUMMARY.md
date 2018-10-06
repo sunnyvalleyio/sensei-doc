@@ -1,6 +1,6 @@
 # Table of contents
 
-* [About Sensei](README.md)
+* [Welcome](README.md)
 
 ## Getting Started
 
