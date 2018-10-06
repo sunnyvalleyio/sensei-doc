@@ -26,7 +26,7 @@ Sensei allows you to block individual applications by clicking on the green chec
 
 ![Blocking Facebook and a couple other social networks](../.gitbook/assets/sensei-m5-app-controls-2.png)
 
-### Blockin an entire category
+### Blocking an entire category
 
 You can also block the entire category by clicking the green check icon located on the left side of the category name.
 

@@ -18,7 +18,7 @@ After a successful login, enter "8" as the option to drop to the shell
 
 ## Download & Run Sensei Installer
 
-Once you register your copy at [https://www.sunnyvalley.io/sensei](https://www.sunnyvalley.io/sensei), you'll be provided with a download URL to install the latest community edition.
+Once you register your copy at [`https://www.sunnyvalley.io/sensei`](https://www.sunnyvalley.io/sensei), you'll be provided with a download URL to install the latest community edition.
 
 ```text
 root@fw:~ # curl https://updates.sunnyvalley.io/getsensei | sh

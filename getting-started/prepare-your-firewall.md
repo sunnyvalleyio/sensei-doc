@@ -7,7 +7,7 @@ Sensei is created to run on open source firewalls like OPNsense. This documentat
 {% endhint %}
 
 1. Login to your OPNsense firewall's dashboard
-2. Head to the System &gt; Settings &gt; Administrations menu
+2. Head to the `System > Settings > Administrations` menu
 3. Enable all three checkboxes 
 
 ![](../.gitbook/assets/opnsense-admin-secure-shell-settings.png)
