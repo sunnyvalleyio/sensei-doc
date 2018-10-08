@@ -24,27 +24,27 @@ You can use dynamic search on top of the category list to filter out the items. 
 
 Sensei allows you to block individual applications by clicking on the green check icons located on the left side of each application.
 
-![Blocking Facebook and a couple other social networks](../.gitbook/assets/sensei-m5-app-controls-2.png)
-
 ### Blocking an entire category
 
 You can also block the entire category by clicking the green check icon located on the left side of the category name.
 
-![](../.gitbook/assets/sensei-m5-app-controls-3.png)
+![](../.gitbook/assets/sensei-m5-app-controls-2.png)
 
 ### Activating the rules
 
 When you're ok with the changes you made, click on the button lower right corner of the screen to save and activate the rules.
 
-![Activating the rules](../.gitbook/assets/sensei-m5-app-controls-4.png)
-
 ### Testing the results
 
 The rules go in the action immediately after you hit the save button. The request silently blackholed on the user's end.
 
-![The user&apos;s browser screen when a site is blocked.](../.gitbook/assets/sensei-m5-app-controls-5-facebook.png)
+#### Testing MSN before the Ads blocked
 
+![MSN homepage with ads](../.gitbook/assets/sensei-m5-app-controls-3-msn-before.png)
 
+#### MSN Homepage after the Ads blocked by Sensei silently
+
+![MSN homepage without ads](../.gitbook/assets/sensei-m5-app-controls-3-msn-after.png)
 
 
 
