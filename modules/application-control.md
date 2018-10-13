@@ -1,6 +1,6 @@
 # Application Control
 
-Sensei's Application Control engine works seamlessly behind the scenes when a user requests to connect through your network and process the request, uses "App DB" to decide whether it will be blocked or allowed.
+Sensei's Application Control engine uses "App DB" to understand and classify the application a particular connection packets carry. The database contains dynamic signatures which hint the packet engine to be able to classify the connections more accurately.  
 
 {% hint style="info" %}
 "APP DB" is maintained by Sunny Valley Networks. You can update it through [Status &gt; App DB Update & Reload](status.md#app-db-update-and-reload)
