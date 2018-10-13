@@ -68,7 +68,7 @@ Decided Not Safe sites are the subset of the categorized sites that we suspect o
 
 Undecided sites are the sites that our Web Categorization Service heard of but have not come to a decision yet. They have been processed at least once by our AI based Web Categorization service, but has not been categorized yet. 
 
-You can block all sites that are awaiting for being re-classification by clicking this option.
+You can block all sites that are awaiting re-classification by clicking this option.
 
 ### Block Unknown Sites
 
