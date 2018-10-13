@@ -1,9 +1,13 @@
 # Hardware Requirements
 
-Due to the nature of packet analysis and granular drill-down, we're providing; Sensei require more horsepower than a standard opensource firewall installation.
+Due to the nature of packet analysis and granular drill-down reporting features, Sensei require more horsepower than a standard L3-L4 firewall.
 
 {% hint style="info" %}
-Sensei requires at least 8 GB of memory, please do not try to run the product on a system below 8GB of memory. 
+Sensei requires at least 8 GB of memory. Installer will not continue if you have less than 8 GB of RAM.
+{% endhint %}
+
+{% hint style="info" %}
+A roadmap feature - Cloud reporting - will enable you to install Sensei to devices which have limited amount of memory. E.g. you'll be able to install Sensei to a Raspberry Pi. 
 {% endhint %}
 
 ## CPU & Memory
@@ -80,5 +84,5 @@ If you're running a 100 Mbps link \(about 100 users\) which is quite active duri
 42 x 4 weeks a month = 164 GB per month.
 ```
 
-As of 0.7.0 \([_changelog_](https://www.sunnyvalley.io/blog/what-s-cooking-for-0-7)\), Sensei retires reports data to open up space for the new ones. After a configured timespan, existing reports data automatically purges to save space for fresh data.
+As of 0.7.0 \([_changelog_](https://www.sunnyvalley.io/blog/what-s-cooking-for-0-7)\), Sensei retires reports data to open up space for the new coming data. After the configured timespan, existing reports data is automatically purged to save space for fresh data.
 

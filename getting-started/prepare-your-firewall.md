@@ -6,6 +6,8 @@ Sensei is currently available for OPNsense open source firewall. This documentat
 
 To install Sensei on your OPNsense firewall, you need to connect to it via `ssh` with `root` privileges.
 
+To do that, you'll first need to activate Secure Shell \(sshd\) service on the firewall.
+
 1. Login to your OPNsense firewall's dashboard
 2. Head to the `System > Settings > Administrations` menu
 3. Enable all three checkboxes 

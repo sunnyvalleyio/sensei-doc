@@ -1,9 +1,13 @@
+---
+description: How to install Sensei with a one-liner command
+---
+
 # Installing Sensei
 
-This process is quite straight-forward and easy. You download an installer file onto the firewall and run it. Everything then gets taken care by the installer script.
+Installing Sensei is straight-forward and easy. You just run a one-liner shell command to download the installer and run it. That's it, everything then gets taken care by Sensei.
 
 {% hint style="info" %}
-Sensei Community Edition is free-of-charge. You can download your copy from [https://www.sunnyvalley.io/sensei](https://www.sunnyvalley.io/sensei)  
+Sensei Community Edition is forever free-of-charge. We strongly recommend you register to keep in touch with updates and new features. You can register here: [https://www.sunnyvalley.io/sensei](https://www.sunnyvalley.io/sensei)  
 {% endhint %}
 
 ## Connect to Your Firewall
@@ -18,22 +22,24 @@ After a successful login, enter "8" as the option to drop to the shell
 
 ## Download & Run Sensei Installer
 
-Once you register your copy at [`https://www.sunnyvalley.io/sensei`](https://www.sunnyvalley.io/sensei), you'll be provided with a download URL to install the latest community edition.
+Run the following one-liner command to download and invoke the installer script. 
 
 ```text
 root@fw:~ # curl https://updates.sunnyvalley.io/getsensei | sh
 ```
 
-![Downloading Sensei installer](../.gitbook/assets/opnsense-terminal-3-getsensei-1.png)
+![Downloading and running the Sensei installer](../.gitbook/assets/opnsense-terminal-3-getsensei-1.png)
 
-Hence we passed the downloaded script to `sh`, it will automatically run the setup script.
+Hence we passed the downloaded script to `sh`, it will automatically run the installer script.
 
 ```text
 Installing via OPNsense installer
 Do you wish to install Sensei? y
 ```
 
-Depending on your computer setup and your internet connection speed, it might take 2-4 minutes to complete.
+Install script will copy the installation files onto the filesystem and will add a menu item within the Firewall Web User Interface. 
+
+Depending on your computer setup and your internet connection speed, it might take 1-4 minutes to complete.
 
 {% hint style="info" %}
 You can get detailed info about suggested hardware on [Getting Started &gt; Hardware Requirements​](getting-ready.md).
@@ -41,7 +47,7 @@ You can get detailed info about suggested hardware on [Getting Started &gt; Hard
 
 ![InstInstalling Sensei](../.gitbook/assets/opnsense-terminal-3-getsensei-2.png)
 
-Once the install completed, you can disconnect from your terminal, and disable your firewall's ssh service by unchecking the checkboxes mentioned above.
+Once the install is completed, you can disconnect from your terminal, and disable your firewall's ssh service by unchecking the checkboxes mentioned above.
 
 ## Initial Configuration Wizard
 
@@ -65,7 +71,7 @@ To start your "Initial Configuration Wizard";
 ### 2- Interface Selection
 
 * Select the Ethernet Interfaces to protect. To do that, click on an interface and use the right/left arrow buttons to move it to protected/unprotected interfaces combo box.
-* Click "Next" and get to the "Security" section.
+* Click "Next" and get to the "Cloud Reputation" section.
 
 ![](../.gitbook/assets/sensei-0-wizard-tab2-interface-selection-2.png)
 
@@ -95,10 +101,10 @@ Cloud Threat Intel settings let you;
 Sensei uses OPNsense package system to deliver its updates. Configure the way you receive your Sensei updates as you feel convenient.
 {% endhint %}
 
-* **Self Health Check:** If enabled "Self Health Check" monitors the system's memory, CPU, disk usage and core services if they're working correctly, and raises alerts \(still in development\) if anything goes wrong. The Check also stops the relevant services if they're consuming excessive system resources.
+* **Self Health Check:** If enabled, "Self Health Check" monitors the system's memory, CPU, disk usage and core services if they're working correctly, and raises alerts if anything goes wrong. Self Health Check also stops the relevant services if they're consuming excessive system resources.
 * **Check for Updates Automatically:** Checks automatically for the updates and creates a notification on the status page.
 * **Update Databases and Threat Intelligence Data Automatically:** Checks automatically for the updates and creates a notification on the status page .
-* **Enable Generation of Suppport Data:** Sensei collects supporting data during unusual events and crashes  if enabled. You can share this data when opening a ticket with us. 
+* **Enable Generation of Support Data:** If enabled, Sensei collects supporting data during unusual events and crashes. You can share this data while opening a ticket with us. 
 
 ![](../.gitbook/assets/sensei-0-wizard-tab5-updates-health-check.png)
 
@@ -124,5 +130,5 @@ Click the Finish button to save your initial configuration data and start using 
 Hands-on video: [https://www.youtube.com/watch?time\_continue=7&v=y6OE2FuzkF0](https://www.youtube.com/watch?time_continue=7&v=y6OE2FuzkF0)
 {% endhint %}
 
-{% embed data="{\"url\":\"https://www.youtube.com/watch?time\_continue=7&v=y6OE2FuzkF0​\",\"type\":\"video\",\"title\":\"Installing Sensei next generation add-on onto OPNsense\",\"description\":\"Download free community edition:  https://www.sunnyvalley.io/sensei\\n\\nThis video illustrates how you can install Sensei on OPNsense open source firewall. \\n\\nSensei extends the capabilities of OPNsense with next generation firewalling features like Application Filtering & Control, TLS Inspection, Advanced Network Analytics and many more.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/y6OE2FuzkF0/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/y6OE2FuzkF0?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/y6OE2FuzkF0?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
+{% embed url="https://www.youtube.com/watch?time\_continue=7&v=y6OE2FuzkF0​" %}
 
