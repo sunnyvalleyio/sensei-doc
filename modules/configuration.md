@@ -20,9 +20,9 @@ You can get detailed info about suggested hardware on [Getting Started &gt; Hard
 
 * Set your TCP Service password. This password protects the command line based CLI access to the packet engine. It is highly recommended to set this with a secure one.
 
-## Cloud Threat Intel
+## Cloud Threat Intelligence
 
-The Cloud Threat Intelligence data is queried real time when anyone makes a connection through your network. It helps us to respond to malware and wireless outbreaks in real time and very fast.
+The Cloud Threat Intelligence data is queried real time when a connection attempt is made through your network. It helps us to respond to malware and wireless outbreaks in real time and very fast.
 
 {% hint style="info" %}
 The engine processes the request, queries to "SVN Cloud" in real-time and decides whether it will be blocked or allowed. We check against 140+ Million Websites, under 120+ categories in milliseconds.
@@ -40,7 +40,7 @@ Cloud Threat Intel settings lets you;
 * **Self Health Check:** If enabled "Self Health Check" monitors the system's memory, CPU, disk usage and core services if they're working correctly, and raises alerts \(still in development\) if anything goes wrong. The Check also stops the relevant services if they're consuming excessive system resources.
 * **Check for Updates Automatically:** Checks automatically for the updates and creates a notification on the status page.
 * **Update Databases and Threat Intelligence Data Automatically:** Checks automatically for the updates and creates a notification on the status page .
-* **Enable Generation of Suppport Data:** Sensei collects supporting data during unusual events and crashes  if enabled. You can share this data when opening a ticket with us. 
+* **Enable Generation of Support Data:** If enabled, Sensei collects supporting data during unusual events and crashes. You can share this data while opening a ticket to us. 
 
 ![](../.gitbook/assets/sensei-m7-configuration-tab3-updates-and-support.png)
 
@@ -48,7 +48,7 @@ Cloud Threat Intel settings lets you;
 
 ### Reports Data Retiring
 
-As of 0.7.0 \([_changelog_](https://www.sunnyvalley.io/blog/what-s-cooking-for-0-7)\), Sensei retires reports data to open up space for the new ones. After a configured timespan, existing reports data automatically purges to save space for fresh data.
+As of 0.7.0 \([_changelog_](https://www.sunnyvalley.io/blog/what-s-cooking-for-0-7)\), Sensei retires reports data to open up space for the new ones. After a configured timespan, existing reports data is automatically purged to save space for fresh data.
 
 ### Scheduled Reports
 
@@ -62,7 +62,7 @@ On the "About" screen, you can get overall info about your license, Sensei versi
 
 ![](../.gitbook/assets/sensei-m7-configuration-tab5-about%20%281%29.png)
 
-## Uninstall
+## Uninstall / Reset to Factory Defaults
 
 To uninstall Sensei packet engine, it must be stopped first. You can either reset Sensei to its factory defaults or uninstall it.
 
