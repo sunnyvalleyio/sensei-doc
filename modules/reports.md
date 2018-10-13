@@ -6,9 +6,48 @@ Reports module is the place where you see what is happening on your network, whi
 All reports have their charts set up. You'll be provided with the charts relevant to the report you're on.
 {% endhint %}
 
-## How to Use Drill-Down Filter
+## Start with the big picture, drill-down to details
 
-You can drill-down to the data you see on the page by clicking on any of the charts displayed, and filter out the data. It will be automatically applied to all the charts as is.
+Sensei's rich reporting allows you both to see the overall network activity in a birds-eye view, and if you want to inspect in detail, you can select any chart item and drill-down to details. You can drill-down as many levels as you like. 
+
+In any time, you can click on the "Sessions Explorer" to see per-connection details for the current reporting level. 
+
+{% hint style="info" %}
+For instance, if you selected "Drill-down" for Streaming application category and then you drilled down to "192.168.1.1" IP address, all reports will be displaying information regarding the Streaming activity of 192.168.1.1 IP Address. 
+
+When you launch the "Sessions Explorer", the displayed records will have the same drill-down filter, so you'll only see the sessions belonging to 192.168.1.1 IP address doing Streaming. 
+{% endhint %}
+
+### Reporting criteria
+
+On the top right hand-side, you can select customize the reporting criteria
+
+#### Reporting Metric
+
+You can select the metrics used to create the reports. Do you want to see how many sessions are created, or how many packets transmitted, or may be the number of bytes transferred? You can select which information you want to see here. They can be either one of them:
+
+1. Sessions: number of connections / transactions 
+2. Packets: number of packets
+3. Volume: number of bytes 
+
+#### Reporting Time Interval
+
+You can define a time interval. Time interval can be:
+
+1. Last 5 minutes
+2. Last 1 hour
+3. Last 1 day
+4. Last 1 week
+5. Last 1 month
+6. Custom time
+
+#### Refresh Time
+
+This is the auto-refresh interval for the reports to automatically refresh with new data. 
+
+## Using the Drill-Down Filter
+
+You can drill-down to the data you see on the page by clicking on any of the charts displayed, and filter out the data. It will be automatically applied to all the charts.
 
 ![](../.gitbook/assets/sensei-m3-reports-charts-drill-down.png)
 
