@@ -1,24 +1,24 @@
 # FAQ
 
-## Which open source firewalls are supported?
+## Which firewalls / network equipments are supported?
 
-​Sensei is created to run on open source firewalls like OPNsense. This documentation based on OPNsense 18.1.x/18.7.x branches.
+Our goal is to be able to run Sensei on any networking equipment \(firewalls, switches, UTMs\) which run on Layer 3-4. 
+
+Currently the full integration has been completed for OPNsense open source firewall. ​This documentation is based on OPNsense 18.1.x/18.7.x branches.
 
 ## Can I run Sensei on a virtualized environment like Proxmox, VirtualBox, KVM?
 
 Yes! However, be sure to avoid using `VirtIO Ethernet`. We recommend using `Intel E1000` or `Realtek` as the network adapter type.
 
-The reason is, `netmap` \(the packet interface at FreeBSD\) adds 12-byte headers for guest to host connections, and our application does not currently handle that. It is on our roadmap to address this.
+You'll be able to use`VirtIO Ethernet` soon, when we finish our work on `netmap` \(the packet interface at FreeBSD\). We're sponsoring an effort to bring the latest netmap code to FreeBSD STABLE and CURRENT. This work will also involve a testing framework, originally developed for Google Summer of Code, and will ensure the stability of netmap infrastructure on FreeBSD during netmap code updates. 
 
 ## Are there any compatibility issues with OPNsense?
 
-Currently, we are aware of an issue where OPNsense upgrades might fail if you start OPNsense version updates while Sensei is running.
-
-We will be working this out with the OPNsense team.
+For OPNsense 18.1.x, we are aware of an issue where OPNsense upgrades might fail if you start OPNsense version updates while Sensei is running.
 
 As a workaround, navigate to Sensei -&gt; Status and stop both Sensei and Elastic Search services before starting OPNsense firmware update.
 
-After that, you're good to go.
+If you're using OPNsense 18.7.x latest, you're good to go. The incompatibility has been fixed in upstream OPNsense code. 
 
 ## What is the correct hardware configuration?
 
@@ -54,7 +54,7 @@ Sensei is one of the first commercial software which is being made available for
 Sensei consists of two modules:
 
 * PHP / Python Scripts which provide the Web User Interface Functionality. **This part is open source.**
-* The Packet Engine coded in C++, and its source code is not open to the public.
+* The Packet Engine coded in C++, and **its source code is not open**.
 
 ## How do I get support?
 
