@@ -1,6 +1,20 @@
+---
+description: Sensei Web Controls & Security
+---
+
 # Web Control
 
-Sensei keeps an eye of web pages visited through your network, and does its job when someone hit an unwanted page silently. 
+Web Controls is the web specific controls that you can apply to web browsing activities. 
+
+{% hint style="info" %}
+The difference between **"Application Controls"** and **"Web Controls"** is that Web Controls provide a more _specific and focused_ policy management _for HTTP \(Web\)_ based connections. 
+
+Application Controls, on the other hand, works for all protocols and connection types and a more generalized control mechanism. 
+
+For instance, if you want to block a specific web site or category which you know operate over HTTP protocol, you are advised to control access through Web Controls.
+
+If you want to create access policy for Tor Browser which can operate in any TCP port, your best bet will be to do is via Application Controls.  
+{% endhint %}
 
 {% hint style="info" %}
 The engine processes the request, queries to "SVN Cloud" in real-time and decides whether it will be blocked or allowed. We check against 140+ Million Websites, under 120+ categories in milliseconds.
@@ -13,7 +27,7 @@ The engine processes the request, queries to "SVN Cloud" in real-time and decide
 Websites are categorized by their type and listed in a click-to-open tree-view for convenient access.
 
 {% hint style="info" %}
-"Web Categorization DB" is maintained by Sunny Valley Networks. You can check how fast we're working on [Status &gt; Cloud Node Status](status.md#cloud-node-status)
+"Web Categorization DB" is maintained by Sunny Valley Networks. You can check how fast we're running via [Status &gt; Cloud Node Status](status.md#cloud-node-status)
 {% endhint %}
 
 ![Sensei: Web Controls module](../.gitbook/assets/sensei-m6-web-controls-1.png)
