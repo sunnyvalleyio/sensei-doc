@@ -46,7 +46,7 @@ Just shoot an e-mail to **sensei -at- sunnyvalley.io**, and we'll be happy to he
 
 
 
-## VAR Support Options
+## Support Options for Channel Partners
 
-Sunny Valley Networks provides Tier 3 Support Options for Sensei Channel Partners. To learn more about them, please contact **partners -at- sunnyvalley.io** 
+Sunny Valley Networks provides Tier 3 Support Options for Sensei Channel Partners. To learn more about them, please contact **sensei-partnership -at- sunnyvalley.io** .
 
