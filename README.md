@@ -6,7 +6,7 @@ description: >-
 
 # Welcome - About Sensei
 
-### About Sensei
+## About Sensei
 
 Sensei is a plugin for firewalls complementing them with state of the art next generation features. If you are running a L4 firewall \(all open source firewalls fall into this category\) and looking for features like Application Control, Network Analytics and TLS Inspection, Sensei is the product you're looking for.  
 
@@ -30,4 +30,29 @@ Sensei is currently under Beta development. With 0.6 release, we started accepti
 {% hint style="info" %}
 Sensei is currently available for [OPNsense firewall](https://www.opnsense.org). 
 {% endhint %}
+
+## Sensei Editions
+
+### Freemium Edition
+
+Freemium Edition is the free-of-charge Sensei edition. Freemium is forever free for OPNsense users. 
+
+Currently Freemium Edition is available and ready to download & deploy.
+
+### Premium Subscription
+
+Premium Subscription is the paid Sensei Subscription which provides features for more advanced business use cases. Premium Edition is currently in the makings and will be available shortly. 
+
+Premium Edition features along with their availability dates will be announced in Q4 2018. 
+
+Below are some of the features that will be on the Premium Subscription:
+
+* All-ports Full TLS Inspection
+* Shaping
+* Policy based Filtering / Shaping / TLS Inspection
+* Time based policies
+* Active Directory Integration
+* Active Directory / Subnet based Policies
+
+
 
