@@ -68,9 +68,9 @@ Please refer to [Getting support section here](getting-support.md#community-edut
 
 ## How much does Sensei cost?
 
-Community Edition is forever free for OPNsense users.
+Freemium Edition is forever free for OPNsense users.
 
-There will be an upcoming Enterprise edition with much more advanced features, which will be more suitable for more advanced use cases.
+There will be an upcoming Premium subscription with much more advanced features, which will be more suitable for more advanced use cases.
 
 We'll announce the roadmap for both the commercial and community versions on our webpage at [https://www.sunnyvalley.io/sensei](https://www.sunnyvalley.io/sensei)
 
