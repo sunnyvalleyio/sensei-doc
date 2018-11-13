@@ -24,7 +24,7 @@ Forum, Gitlab and e-mail are three methods from which you can get help. We recom
 
 Also do not forget to connect with our Social Media Accounts:
 
-[Twitter @sunnyvalley](https://twitter.com/sunnyvalley)  
+[Twitter: @sunnyvalley](https://twitter.com/sunnyvalley)  
 [Youtube](https://www.youtube.com/channel/UCBmMJAnuUW5qxAN23kLPuPA)   
 [Sunny Valley Blog](https://sunnyvalley.io/blog/)
 

@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.7.0 - October 15, 2018
+## 0.7.0beta1 - October 15, 2018
 
 * New Report - Blocked Connections Sessions Explorer and drill-down reporting
 * Reports enhancement: Daily executive reports. Selected reports delivered via a daily e-mail.
