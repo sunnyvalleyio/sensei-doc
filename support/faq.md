@@ -6,6 +6,12 @@ Our goal is to be able to run Sensei on any networking equipment \(firewalls, sw
 
 Currently the full integration has been completed for OPNsense open source firewall. ​This documentation is based on OPNsense 18.1.x/18.7.x branches.
 
+## No Ethernet Interface is being shown in the Interface Configuration
+
+If you cannot see any Ethernet Interfaces not being reported in the Configuration -&gt; Interface Selection menu, chances are that you're running on a virtualized environment like Promox/QEMU and you're using `VirtIO Ethernet`  . `Virtio Ethernet` and netmap does not play well together. As a workaround, we recommend using `Intel E1000` or `Realtek` as the network adapter type.
+
+Please see below related answer:
+
 ## Can I run Sensei on a virtualized environment like Proxmox, VirtualBox, KVM?
 
 Yes! However, be sure to avoid using `VirtIO Ethernet`. We recommend using `Intel E1000` or `Realtek` as the network adapter type.
