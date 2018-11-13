@@ -1,5 +1,12 @@
 # FAQ
 
+## Is Sensei open source?
+
+Sensei consists of two modules:
+
+* The Packet Engine coded in C++. **This part is closed source**.
+* PHP Code & Python Scripts which provide the Web User Interface Functionality. **This part is open source.**
+
 ## Which firewalls / network equipments are supported?
 
 Our goal is to be able to run Sensei on any networking equipment \(firewalls, switches, UTMs\) which run on Layer 3-4. 
@@ -52,15 +59,6 @@ When you click on any Sensei submenu, you'll be redirected to the initial Config
 * Click on "`Uninstall`" tab
 * Click on "`Uninstall Sensei packet engine`" button.
 * Confirm that you want to proceed.
-
-## Is Sensei open source?
-
-Sensei is one of the first commercial software which is being made available for OPNsense platform.
-
-Sensei consists of two modules:
-
-* PHP / Python Scripts which provide the Web User Interface Functionality. **This part is open source.**
-* The Packet Engine coded in C++, and **its source code is not open**.
 
 ## How do I get support?
 
