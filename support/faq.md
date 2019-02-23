@@ -11,7 +11,7 @@ Sensei consists of two modules:
 
 Our goal is to be able to run Sensei on any networking equipment \(firewalls, switches, UTMs\) which run on Layer 3-4. 
 
-Currently the full integration has been completed for OPNsense open source firewall. ​This documentation is based on OPNsense 18.1.x/18.7.x branches.
+Currently the full integration has been completed for OPNsense open source firewall. ​This documentation is based on OPNsense 18.1.x/18.7.x/19.1.x branches.
 
 ## No Ethernet Interface is being shown in the Interface Configuration
 
@@ -21,17 +21,21 @@ Please see below related answer:
 
 ## Can I run Sensei on a virtualized environment like Proxmox, VirtualBox, KVM?
 
-Yes! However, be sure to avoid using `VirtIO Ethernet`. We recommend using `Intel E1000` or `Realtek` as the network adapter type.
+Yes! However, if you're using Sensei 0.7.x release, be sure to avoid using `VirtIO Ethernet`. We recommend using `Intel E1000` or `Realtek` as the network adapter type.
 
-You'll be able to use`VirtIO Ethernet` soon, when we finish our work on `netmap` \(the packet interface at FreeBSD\). We're sponsoring an effort to bring the latest netmap code to FreeBSD STABLE and CURRENT. This work will also involve a testing framework, originally developed for Google Summer of Code, and will ensure the stability of netmap infrastructure on FreeBSD during netmap code updates. 
+**Starting with Sensei 0.8.0 OPNsense 19.1.2, you'll be able to use`VirtIO Ethernet`** 
+
+This set includes a work on `netmap` \(the packet interface at FreeBSD\). We've sponsored an effort to bring the latest netmap code to FreeBSD STABLE and CURRENT. This work also involves a testing framework, originally developed for Google Summer of Code, and ensures the stability of netmap infrastructure on FreeBSD during netmap code updates. 
 
 ## Are there any compatibility issues with OPNsense?
+
+If you're using OPNsense 18.7.x/19.1.x latest, you should be good to go. 
 
 For OPNsense 18.1.x, we are aware of an issue where OPNsense upgrades might fail if you start OPNsense version updates while Sensei is running.
 
 As a workaround, navigate to Sensei -&gt; Status and stop both Sensei and Elastic Search services before starting OPNsense firmware update.
 
-If you're using OPNsense 18.7.x latest, you're good to go. The incompatibility has been fixed in upstream OPNsense code. 
+
 
 ## What is the correct hardware configuration?
 
@@ -39,7 +43,7 @@ Please refer to [Getting Ready section here](../getting-started/getting-ready.md
 
 ## Does Sensei support IPv6?
 
-IPv6 support is currently under development.
+IPv6 support is shipping with 0.8.0 release which is scheduled for late February 2019. 
 
 ## Sensei does not recognize my Wi-Fi interface
 

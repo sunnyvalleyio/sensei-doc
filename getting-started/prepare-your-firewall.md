@@ -1,7 +1,7 @@
 # Prepare Your Firewall
 
 {% hint style="info" %}
-Sensei is currently available for OPNsense open source firewall. This documentation based on OPNsense 18.1.x/18.7.x branches.
+Sensei is currently available for OPNsense open source firewall. This documentation based on OPNsense 18.x/19.x releases.
 {% endhint %}
 
 To install Sensei on your OPNsense firewall, you need to connect to it via `ssh` with `root` privileges.
