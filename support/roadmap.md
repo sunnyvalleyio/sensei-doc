@@ -6,6 +6,7 @@ description: >-
 
 # Roadmap
 
+* Safe search
 * Active Directory Integration
 * Asset discovery
 * Customized reports
