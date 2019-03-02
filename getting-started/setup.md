@@ -22,7 +22,15 @@ After a successful login, enter "8" as the option to drop to the shell
 
 ## Download & Run Sensei Installer
 
+### Upcoming Beta Release \(0.8 with IPv6 support\)
+
 Run the following one-liner command to download and invoke the installer script. 
+
+```text
+root@fw:~ # curl https://updates.sunnyvalley.io/getsensei8 | sh
+```
+
+### Current Stable Release \(0.7 IPv4 only\)
 
 ```text
 root@fw:~ # curl https://updates.sunnyvalley.io/getsensei | sh

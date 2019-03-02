@@ -29,11 +29,10 @@ Recommended minimum hardware requirements for Sensei based on the number of user
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">
-        <25</td>
-          <td style="text-align:left">20 Mbps</td>
-          <td style="text-align:left">8 GB</td>
-          <td style="text-align:left">Intel Dual-Core i3 2.0 GHz (2 Cores, 4 Threads) or equivalent</td>
+      <td style="text-align:left">&lt;25</td>
+      <td style="text-align:left">20 Mbps</td>
+      <td style="text-align:left">8 GB</td>
+      <td style="text-align:left">Intel Dual-Core i3 2.0 GHz (2 Cores, 4 Threads) or equivalent</td>
     </tr>
     <tr>
       <td style="text-align:left">25-50</td>
