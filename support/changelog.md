@@ -1,15 +1,15 @@
 # Changelog
 
-## 0.8.0.beta1 - ETA March 1, 2019
+## 0.8.0.beta1 - March 3, 2019
 
 * **IPv6 Support** As promised - now Sensei has IPv6 support.
-* **Virtio interface support** There were many requests that we make Sensei run on virtual interfaces like QEMU/KVM/Proxmox virtio. Sensei 0.8 combined with OPNsense 19.1.2 new netmap enabled kernel, you can now run on virtio interfaces This is also a big enabler to run OPNsense and Sensei on most of the major Cloud and VPS operators. More info on that: [https://forum.opnsense.org/index.php?topic=11477.0](https://forum.opnsense.org/index.php?topic=11477.0)
+* **Virtio interface support** There were many requests that we make Sensei run on virtual interfaces like QEMU/KVM/Proxmox virtio. Sensei 0.8 combined with OPNsense 19.1.x new netmap enabled kernel, you can now run on virtio interfaces This is also a big enabler to run OPNsense and Sensei on most of the major Cloud and VPS operators. More info on that: [https://forum.opnsense.org/index.php?topic=11477.0](https://forum.opnsense.org/index.php?topic=11477.0)
 * **Wireless interfaces support** Starting with OPNsense 19.1 and Sensei 0.8, you can now run Sensei on wireless interfaces.
 * **VLAN interfaces support** Starting with OPNsense 19.1 and Sensei 0.8, you can now run Sensei on VLAN interfaces.
 * **Better Cloud & Update Servers Availability**
 * Users can now ignore the Hardware compatibility warning and install Sensei even if the HW resources are below what is advisable.
 * You'll now get reported via an informative message in the UI if Sensei health check automatically stops Sensei service due to a HW resource shortage. Up until now, Sensei was doing this quite silently ;\)
-* Sensei installation / upgrade progress bar now reports the status more correctly.
+* Number of Elasticsearch dependencies decreased by 1/3: faster installs & updates
 * **Better Reporting**
 * IPv6 reporting
 * Ability to resolve local IP addresses to MDNS supplied hostnames
