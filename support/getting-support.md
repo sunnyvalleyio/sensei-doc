@@ -10,7 +10,7 @@ description: How to get Sensei Support
 
 Premium Support provides access to [**Sunny Valley Service Desk**](https://sunnyvalley.atlassian.net/servicedesk/).  Through _SVN Service Desk_, you can do self service and discover helpful information or create support tickets, which gets taken care by SVN engineers with a higher priority and - with the related support option - a Service Level Agreement \(SLA\). 
 
-To access **Sunny Valley Service Desk**, follow this URL: [**https://support.sunnyvalley.io**](https://support.sunnyvalley.io) 
+To access **Sunny Valley Service Desk**, follow this URL: **https://sunnyvalley.atlassian.net/support/** 
 
 When you buy a Sensei subscription, you are automatically entitled to **Premium Subscription Basic Support**.  Basic support enables you to create tickets and get direct help from Sunny Valley Networks engineers. 
 
@@ -32,9 +32,9 @@ Also do not forget to connect with our Social Media Accounts:
 
 There is an active discussion about Sensei on OPNsense forum. The related thread is under Development and Code Review section. Look for the topic "Sensei on OPNsense Application based filtering". 
 
-Or simply [click here](https://forum.opnsense.org/index.php?topic=9521.30) to reach the related thread:
+Or simply click: [https://forum.opnsense.org/index.php?topic=9521.new;topicseen\#new](https://forum.opnsense.org/index.php?topic=9521.new;topicseen#new)
 
-![Sensei on OPNsense Forum](../.gitbook/assets/1.png)
+![Sensei thread on OPNsense forum](../.gitbook/assets/sensei-forum.png)
 
 ### Gitlab
 
