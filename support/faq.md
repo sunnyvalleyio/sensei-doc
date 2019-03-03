@@ -11,7 +11,7 @@ Sensei consists of two modules:
 
 Our goal is to be able to run Sensei on any networking equipment \(firewalls, switches, UTMs\) which run on Layer 3-4. 
 
-Currently the full integration has been completed for OPNsense open source firewall. ​This documentation is based on OPNsense 18.1.x/18.7.x/19.1.x branches.
+Currently the full integration has been completed for OPNsense open source firewall. ​This documentation is based on OPNsense 19.1.x/18.7.x/18.1.x branches.
 
 ## No Ethernet Interface is being shown in the Interface Configuration
 
@@ -23,7 +23,7 @@ Please see below related answer:
 
 Yes! However, if you're using Sensei 0.7.x release, be sure to avoid using `VirtIO Ethernet`. We recommend using `Intel E1000` or `Realtek` as the network adapter type.
 
-**Starting with Sensei 0.8.0 OPNsense 19.1.2, you'll be able to use`VirtIO Ethernet`** 
+**Starting with Sensei 0.8.0 OPNsense 19.1.x, you'll be able to use`VirtIO Ethernet`** 
 
 This set includes a work on `netmap` \(the packet interface at FreeBSD\). We've sponsored an effort to bring the latest netmap code to FreeBSD STABLE and CURRENT. This work also involves a testing framework, originally developed for Google Summer of Code, and ensures the stability of netmap infrastructure on FreeBSD during netmap code updates. 
 
@@ -43,11 +43,11 @@ Please refer to [Getting Ready section here](../getting-started/getting-ready.md
 
 ## Does Sensei support IPv6?
 
-IPv6 support is shipping with 0.8.0 release which is scheduled for late February 2019. 
+IPv6 support is shipped with 0.8.0 beta1.
 
 ## Sensei does not recognize my Wi-Fi interface
 
-We've been reported issues with Wi-fi drivers. Until addressed, Sensei filters out Wi-fi interfaces on the Interface Selection menu.
+Starting with 0.8.0 beta1 and OPNsense 19.1.x, you can now protect wi-fi interfaces. 
 
 ## How do I reset to factory defaults?
 
