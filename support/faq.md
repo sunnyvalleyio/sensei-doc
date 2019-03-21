@@ -49,6 +49,12 @@ IPv6 support is shipped with 0.8.0 beta1.
 
 Starting with 0.8.0 beta1 and OPNsense 19.1.x, you can now protect wi-fi interfaces. 
 
+## Reports: some charts are broken
+
+This is because of  broken Elasticsearch indices. This happens when there is an unexpected power loss on the firewall .e.g. an electricity outage, abnormal shutdown of the firewall etc. Elasticsearch does a lot of buffering, writing the buffers to the indices from some time to time. If a partial write is in place than chances are high that your indices might get corrupt. 
+
+**Solution:** Go to Sensei -&gt; Configuration -&gt; Reporting & Data. Click "Perform health check for indices". It'll take care of the rest for you.
+
 ## How do I reset to factory defaults?
 
 * Navigate to `Sensei > Configuration`
