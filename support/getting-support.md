@@ -6,11 +6,11 @@ description: How to get Sensei Support
 
 ## Premium Subscription Support
 
-{% embed url="https://sunnyvalley.atlassian.net/servicedesk/" caption="https://support.sunnyvalley.io" %}
+{% embed url="https://help.sunnyvalley.io" caption="Sunny Valley Networks Help Desk" %}
 
-Premium Support provides access to [**Sunny Valley Service Desk**](https://sunnyvalley.atlassian.net/servicedesk/).  Through _SVN Service Desk_, you can do self service and discover helpful information or create support tickets, which gets taken care by SVN engineers with a higher priority and - with the related support option - a Service Level Agreement \(SLA\). 
+Premium Support provides access to [**Sunny Valley Help Desk**](https://help.sunnyvalley.io).  Through _SVN Help Desk_, you can do self service and discover helpful information or create support tickets, which gets taken care by SVN engineers with a higher priority and - with the related support option - a Service Level Agreement \(SLA\). 
 
-To access **Sunny Valley Service Desk**, follow this URL: **https://sunnyvalley.atlassian.net/support/** 
+To access **Sunny Valley Help Desk**, follow this URL: **https://help.sunnyvalley.io** 
 
 When you buy a Sensei subscription, you are automatically entitled to **Premium Subscription Basic Support**.  Basic support enables you to create tickets and get direct help from Sunny Valley Networks engineers. 
 
