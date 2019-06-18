@@ -1,7 +1,7 @@
 ---
 description: >-
   Freemium edition is currently available and free to use.  Premium subscription
-  details along pricing will be made publicly available in July 2019.
+  details along with pricing will be made publicly available in July 2019.
 ---
 
 # Sensei Editions
