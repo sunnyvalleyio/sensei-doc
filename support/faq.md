@@ -43,7 +43,7 @@ Please refer to [Getting Ready section here](../getting-started/getting-ready.md
 
 ## Does Sensei support IPv6?
 
-IPv6 support is shipped with 0.8.0 beta1.
+Yes
 
 ## Sensei does not recognize my Wi-Fi interface
 
