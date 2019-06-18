@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome - About Sensei](README.md)
+* [Sensei Editions](sensei-editions.md)
 
 ## Getting Started
 

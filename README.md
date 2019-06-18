@@ -43,16 +43,9 @@ Currently Freemium Edition is available and ready to download & deploy.
 
 Premium Subscription is the paid Sensei Subscription which provides features for more advanced business use cases. Premium Edition is currently in the makings and will be available shortly. 
 
-Premium Edition features along with their availability dates will be announced in Q4 2018. 
+Premium Edition features will be available in July 2019. 
 
-Below are some of the features that will be on the Premium Subscription:
-
-* All-ports Full TLS Inspection
-* Shaping
-* Policy based Filtering / Shaping / TLS Inspection
-* Time based policies
-* Active Directory Integration
-* Active Directory / Subnet based Policies
+For a complete feature comparison see ["Sensei Editions"](sensei-editions.md)
 
 
 
