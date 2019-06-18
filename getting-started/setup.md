@@ -7,7 +7,7 @@ description: How to install Sensei with a one-liner command
 Installing Sensei is straight-forward and easy. You just run a one-liner shell command to download the installer and run it. That's it, everything then gets taken care by Sensei.
 
 {% hint style="info" %}
-Sensei Community Edition is forever free-of-charge. We strongly recommend you register to keep in touch with updates and new features. You can register here: [https://www.sunnyvalley.io/sensei](https://www.sunnyvalley.io/sensei)  
+Sensei Freemium Edition is forever free-of-charge. We strongly recommend you register to keep in touch with updates and new features. You can register here: [https://www.sunnyvalley.io/sensei](https://www.sunnyvalley.io/sensei)  
 {% endhint %}
 
 ## Connect to Your Firewall
@@ -22,15 +22,7 @@ After a successful login, enter "8" as the option to drop to the shell
 
 ## Download & Run Sensei Installer
 
-### Upcoming Beta Release \(0.8 with IPv6 support\)
-
 Run the following one-liner command to download and invoke the installer script. 
-
-```text
-root@fw:~ # curl https://updates.sunnyvalley.io/getsensei8 | sh
-```
-
-### Current Stable Release \(0.7 IPv4 only\)
 
 ```text
 root@fw:~ # curl https://updates.sunnyvalley.io/getsensei | sh
