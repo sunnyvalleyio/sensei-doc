@@ -3,7 +3,7 @@
 Due to the nature of packet analysis and granular drill-down reporting features, Sensei require more horsepower than a standard L3-L4 firewall.
 
 {% hint style="info" %}
-Sensei requires at least 8 GB of memory. Installer will not continue if you have less than 8 GB of RAM.
+Sensei requires at least 4 GB of memory. Installer will not continue if you have less than 4 GB of RAM.
 {% endhint %}
 
 {% hint style="info" %}
