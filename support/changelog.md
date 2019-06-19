@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.8.0.beta1 - March 3, 2019
+## 0.8.0 - June 18, 2019
 
 * **IPv6 Support** As promised - now Sensei has IPv6 support.
 * **Virtio interface support** There were many requests that we make Sensei run on virtual interfaces like QEMU/KVM/Proxmox virtio. Sensei 0.8 combined with OPNsense 19.1.x new netmap enabled kernel, you can now run on virtio interfaces This is also a big enabler to run OPNsense and Sensei on most of the major Cloud and VPS operators. More info on that: [https://forum.opnsense.org/index.php?topic=11477.0](https://forum.opnsense.org/index.php?topic=11477.0)
