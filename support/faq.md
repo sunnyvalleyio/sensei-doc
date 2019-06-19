@@ -9,7 +9,7 @@ Sensei consists of two modules:
 
 ## Which firewalls / network equipments are supported?
 
-Our goal is to be able to run Sensei on any networking equipment \(firewalls, switches, UTMs\) which run on Layer 3-4. 
+Our goal is to be able to run Sensei on any networking environment; be it a container, cloud, virtual or bare-metal deployment \(firewalls, switches, UTMs\) which processes Layer 3-4 traffic. 
 
 Currently the full integration has been completed for OPNsense open source firewall. ​This documentation is based on OPNsense 19.1.x/18.7.x/18.1.x branches.
 
